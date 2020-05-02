@@ -1,0 +1,84 @@
+h1{ 
+    
+    border: 1px solid rgba(98, 97, 97, 0.068);
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: rgb(27, 95, 173);
+    background-color:rgba(98, 97, 97, 0.068);
+    font-size: 40px;
+    /* margin: 20px 250px 40px 250px; */
+    padding: 5px;
+    text-align: center;
+}
+.marglst{
+    margin: 100px 30px 0px 30px ;
+    background-color: rgb(209, 195, 200);
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.panel{
+    display: inline;
+    border: 2px solid purple;
+    font-size: 30px;
+    margin: 5px 5px 50px 5px;
+    background-color: rgb(223, 215, 170);  
+    padding: 5px;  
+    border-radius: 5px;
+    text-transform: capitalize;
+   
+}
+.table{
+    text-transform: capitalize;
+    
+    margin: 15px;
+    padding: 5px;
+    /* border: 2px solid red; */
+    border-spacing: 20px 0px;
+     
+}
+
+td{
+    padding: 5px;
+    font-size: 30px;
+    /* border: 2px solid red; */
+    
+    
+}
+
+.change{
+   
+    text-decoration: none;
+    cursor: pointer;
+}
+.change:hover{
+    color: rgb(233, 187, 89);
+    text-decoration: underline;
+}
+
+
+legend{
+   font-size: 30px;
+   background-color: rgb(224, 236, 190);
+   border: 2px solid rgb(224, 236, 190);
+   border-radius: 5px;
+   font-weight: bolder;
+   /* margin: 5px 100px 5px 5px;; */
+   /* text-align: center; */
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.link:visited { color: rgb(27, 95, 173);} 
+.link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.align{
+    text-align: right;
+}
