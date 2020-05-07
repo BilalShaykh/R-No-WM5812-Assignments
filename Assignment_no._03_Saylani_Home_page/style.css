@@ -177,8 +177,9 @@ border: 1px solid #ffffff;
   padding: 5px;
   color: rgb(0, 255, 0);
   height: 30px;
- 
-
+}
+.second-colr-2{
+  color: #ffffff;
 }
 
 .intro h1{
@@ -233,6 +234,7 @@ border: 1px solid #ffffff;
 }
 .counter p{
   padding:15px 0px;
+  font-size: 19px;
 }
 
 .margin{
