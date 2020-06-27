@@ -488,18 +488,18 @@
 // palindrome();
 
 // ================== chapter# 35-38 Task 11
-// function titleCase() {
-//     var str = 'the quick brown fox';
-//     var strToArray = str.split(' ');
-//     var newArray = [];
-//     console.log(strToArray)
-//     for (i = 0; i < strToArray.length; i++){
-//         var word = strToArray[i].slice(0, 1).toUpperCase() + strToArray[i].slice(1).toLowerCase() + ' ';
-//         newArray.push(word);
-//     }
-//     return newArray.join(' ')
-// }
-// document.write(titleCase());
+function titleCase() {
+    var str = 'the quick brown fox';
+    var strToArray = str.split(' ');
+    var newArray = [];
+    console.log(strToArray)
+    for (i = 0; i < strToArray.length; i++){
+        var word = strToArray[i].slice(0, 1).toUpperCase() + strToArray[i].slice(1).toLowerCase() + ' ';
+        newArray.push(word);
+    }
+    return newArray.join(' ')
+}
+document.write(titleCase());
 
 // ================== chapter# 35-38 Task 12
 // function longWord() {

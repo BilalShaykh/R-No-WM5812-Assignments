@@ -1,0 +1,82 @@
+
+.border-margin{
+    margin: 0 auto;
+    top: 100px;
+    position: relative;
+    width: 40%;
+    border-radius: 20px;
+}
+.margin-set{
+background-color: #635251;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 20px;
+padding-left: 20px;
+box-shadow: 5px 5px 5px;
+}
+
+.input-style{
+    width: 98%;
+    padding: 5px;
+    font-size: 50px;
+    border-radius: 20px;
+    text-align: right;
+    background-color: #dcdcdc;
+}
+.keypad-colour{
+    background-color: #efa438;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px;
+}
+.btn-style{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px; 
+}
+.w-100{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+.w-100:hover{
+    background-color: #635251;
+}
+.w-20{
+    width: 24%;
+    margin: 5px 0px;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px;
+    background-color: rgb(248, 248, 250);
+    border-radius: 5px;
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+}
+.w-20:hover{
+    background-color: #635251;
+}
+
+.but-colr{
+    background-color: #ec8b23;
+    border-width: 0px;
+}
+
+.text-align{
+    text-align: center;
+    border: 2px solid #ec8b23;
+}
+
