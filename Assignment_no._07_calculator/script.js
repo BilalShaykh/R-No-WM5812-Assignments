@@ -1,29 +1,25 @@
 function numberInput(num) {
-    // console.log(num)
     var number = document.getElementById('numberInput');
-
     number.value += num;
-    // console.log(number.value)
-
 }
 
 function screenClear() {
     var clear = document.getElementById('numberInput')
+    var clear1 = document.getElementById('history')
+    clear1.value = '';
     clear.value = '';
+}
+function lastDigitClear(){
+    var result = document.getElementById('numberInput')
+    result.value = result.value.slice(0, -1);
 }
 
 function getResult() {
+    var check = '';
     var result = document.getElementById('numberInput');
-    
+    var history = document.getElementById('history');
+    history.value = result.value;
     result.value = eval(result.value);
-
-    console.log(result.value)
 }
-function getResult1(x) {
-    var result1 = document.getElementById('numberInput');
-    console.log(result1.value)
 
-    result1.value = eval(result1.value);
-    console.log(result1.value)
-}
 

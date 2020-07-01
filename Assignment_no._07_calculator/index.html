@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
     <div class="border-margin ">
         <div class="margin-set">
-            <input type="text" class=" input-style" id="numberInput">
+            <div class="div-style" >
+                <input type="text" class="history-style" id="history">
+                <input type="text" class=" input-style" id="numberInput">
+            </div>
         </div>
         <div class="keypad-colour">
-            <div  class="btn-style ">
-                <button class="w-100" onclick="screenClear()">c</button>
+            <div class="btn-style ">
+                <button class="w-100" onclick="screenClear()">AC</button>
+                <button class="w-100" onclick="lastDigitClear()">C</button>
             </div>
             <div class="btn-style ">
                 <button class="w-20 but-colr" onclick="numberInput('7')">7</button>
@@ -43,9 +49,9 @@
             <div class="btn-style">
                 <button class="w-20" onclick="numberInput('(')">(</button>
                 <button class="w-20" onclick="numberInput(')')">)</button>
-                <button class="w-20" onclick="numberInput('**')">^</button>
+                <button class="w-20" onclick="numberInput('^')">^</button>
                 <button class="w-20" onclick="getResult()">=</button>
-                
+
             </div>
             <div>
                 <h2 class="text-align">Made By Muhammad Bilal</h2>
@@ -53,10 +59,12 @@
         </div>
 
         
-    </div>
-    
 
-    
+    </div>
+
+
+
     <script src="script.js"></script>
 </body>
+
 </html>

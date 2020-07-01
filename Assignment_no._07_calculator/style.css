@@ -1,29 +1,49 @@
 
 .border-margin{
-    margin: 0 auto;
-    top: 100px;
-    position: relative;
-    width: 40%;
+    /* margin: 0 auto; */
+    /* top: 100px;
+    position: relative; */
+    width: 50rem;
     border-radius: 20px;
 }
 .margin-set{
 background-color: #635251;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-padding-top: 30px;
-padding-bottom: 30px;
-padding-right: 20px;
-padding-left: 20px;
+padding-top: 40px;
+padding-bottom: 40px;
 box-shadow: 5px 5px 5px;
 }
-
-.input-style{
-    width: 98%;
-    padding: 5px;
-    font-size: 50px;
-    border-radius: 20px;
+.div-style{
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.history-style{
+    padding-right: 5px;
+    width: 46rem;
+    margin: 0 auto;
+    font-size: 2em;
+    color: rgb(65, 63, 63);
     text-align: right;
     background-color: #dcdcdc;
+    border: none;
+    outline:  none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.input-style{
+    width: 46rem;
+    padding-right: 5px;
+    margin: 0 auto;
+    font-size: 3em;
+    text-align: right;
+    background-color: #dcdcdc;
+    border: none;
+    outline:  none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
 }
 .keypad-colour{
     background-color: #efa438;
@@ -42,7 +62,7 @@ box-shadow: 5px 5px 5px;
     margin-bottom: 10px; 
 }
 .w-100{
-    width: 100%;
+    width: 49.3%;
     font-size: 30px;
     margin-top: 15px;
     margin-bottom: 10px;
