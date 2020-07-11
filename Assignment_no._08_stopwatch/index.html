@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+
+<body>
+    <!-- <img  id='bulb' src="offbulb.jpg" alt="" width='100px'>
+    <br>
+    <button onclick="onBulb()">on bulb</button>
+    <button onclick="offBulb()">off bulb</button> -->
+    <div class="stopWatch">
+        <div class="clock">
+            <h1 id="mins">0</h1>
+            <h1>:</h1>
+            <h1 id="secs">0</h1>
+            <h1>:</h1>
+            <h1 id="msecs">0</h1>
+            <div class="time">
+                <h4>MINS</h4>
+                <h4>SECS</h4>
+                <h4>MSEC</h4>
+            </div>
+        </div>
+        
+        <div class="button">
+            <button onclick="start()" id="startbutton"><i class="fa fa-play"></i></button>
+            <button onclick="pause()"><i class="fa fa-pause"></i></button>
+            <button onclick="reset()"><i class="fa fa-repeat"></i></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
