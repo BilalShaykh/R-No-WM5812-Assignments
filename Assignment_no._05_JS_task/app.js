@@ -1,31 +1,29 @@
-// Chapter# 1:
-
-// task# 1
+// ================== chapter# 1 Task 1
 // let x = "welcome to Java Script Practice Enviroment.";
 // alert(x);
 
-// task# 2
+// ================== chapter# 1 Task 2
 // let error = "Error! Enter a Valid Password.";
 // alert(error);
 
-// task# 3
+// ================== chapter# 1 Task 3
 // let welcome = "Welcome to JS Land...\n Happy Coding!"; 
 // alert(welcome);
 
-// task# 4
+// ================== chapter# 1 Task 4
 // let wel_Come = 'Welcome to JS Land...';
 // alert(wel_Come);
 // let happyCoding = 'Happy Coding!';
 // alert(happyCoding);
 
-// task# 5
+// ================== chapter# 1 Task 5
 // let browserConsole = "Hellow.. I can run JS through my web browser's console";
 // alert(browserConsole);
 
-// task# 6 
+// ================== chapter# 1 Task 6
 // alert('Use of alret in Project');
 
-// task# 7 placement of <script></script> tag
+// ================== chapter# 1 Task 7 placement of <script></script> tag
 // a. Head
 // b.Body(before your page’s HTML)
 // c. Body (inside your page’s HTML)
@@ -35,22 +33,20 @@
 
 
 
-// Chapter# 2:
+// ================== chapter# 2 Task 1
+// let userName = "";*/
 
-/*task# 1
-let userName = "";*/
+// ================== chapter# 2 Task 1
+// let myName = "Muhammad Bilal Shaykh";
+// alert(myName)*/
 
-/*task# 2
-let myName = "Muhammad Bilal Shaykh";
-alert(myName)*/
-
-// task# 3
+// ================== chapter# 2 Task 3
 // let message;
 // message = "Hello World";
 // alert(message);
 
 
-// task# 4
+// ================== chapter# 2 Task 4
 // let studentName = prompt('Enter Your Name:',) ;
 // alert('Your Name is: ' + studentName);
 // let studentAge = +prompt('Enter Your Age:',) ;
@@ -58,23 +54,23 @@ alert(myName)*/
 // let enrollCourse = "Certified Mobile Application Development"
 // alert(enrollCourse)
 
-// task# 5
+// ================== chapter# 2 Task 5
 // let food = "PIZZA";
 // alert(food + '\n' + food.slice(0,4) + '\n' + food.slice(0,3) + '\n' + food.slice(0,2) + '\n' + food.slice(0,1));
 
-// task# 6
+// ================== chapter# 2 Task 6
 // let eMail = "bilalshyakh1@gmail.com";
 // alert('My Email addres is ' + eMail)
 
-// task# 7
+// ================== chapter# 2 Task 7
 // let book = "A Smarter Way To Learn Java Script";
 // alert('i m trying to learn from the book ' + book);
 
-// task# 8
+// ================== chapter# 2 Task 8
 // let htmlContent = 'Yah! i can write HTML content through JavaScript';
 // document.write(htmlContent)
 
-// task# 9
+// ================== chapter# 2 Task 9
 // let design = '“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”';
 // alert(design);
 
@@ -83,22 +79,20 @@ alert(myName)*/
 
 
 
-// Chapter# 03:
-
-// task# 1
+// ================== chapter# 3 Task 1
 // let age = 26;
 // alert('I am ' + age + ' years old');
 
-// task# 2
+// ================== chapter# 3 Task 2
 // let numberOfVisit = 14;
 // alert('You have visited the site ' + numberOfVisit + ' times.')
 
-// task# 3
+// ================== chapter# 3 Task 3
 // let birthYear = 1994;
 // document.write('My birthday year is ' + birthYear + "<br>");
 // document.write("Data type of my Decleared variable is Number");
 
-// task# 4
+// ================== chapter# 3 Task 4
 // let visitorName = "<strong>Jhon Doe</strong>";
 // let productTitle = " <strong>T-Shirts(s) </strong>";
 // let quantity = 5;
@@ -110,15 +104,13 @@ alert(myName)*/
 
 
 
-// chapter# 04:
-
-// task# 1
+// ================== chapter# 4 Task 1
 // let x, y, z = '';
 
-// task# 2
+// ================== chapter# 4 Task 2
 // document.write('Legal varibales name: $userName, _name, colour1, password, data_Type1 <br> Illegal varibales name: 1ststye, &type, user name, -class, !food-name' )
 
-// task# 3
+// ================== chapter# 4 Task 3
 // let heading = '<h1>Rules for naming JS variables</h1>';
 // document.write(heading);
 // let rules = 'Variable names can only contain Letters, Numbers, $ and _ . For example $my_1stVariable <br> Variables must begin with a Letter, $ or _ . For example $name, _name or name <br> Variable names are case sensitive. <br> Variable names should not be JS keywords';
@@ -130,16 +122,14 @@ alert(myName)*/
 
 
 
-// chapter# 05:
-
-// task# 1
+// ================== chapter# 5 Task 1
 // let addNum1 = +prompt('Enter 1st Number for Addition', '');
 // let addNum2 = +prompt('Enter 2nd Number for Addition', '');
 // let sum = addNum1 + addNum2;
 // document.write('Sum of ' + '<strong>'+addNum1+'</strong>' + ' and ' + '<strong>'+addNum2+'</strong>' + ' is ' + '<strong>'+sum+'</strong>' + '<br>');
 
 
-// task# 2
+// ================== chapter# 5 Task 2
 // let subNum1 = +prompt('Enter 1st Number for Subtraction (1st - 2nd)', '');
 // let subNum2 = +prompt('Enter 2nd Number for Subtraction', '');
 // let subtract = subNum1 - subNum2;
@@ -162,7 +152,7 @@ alert(myName)*/
 // document.write('Modulus of ' + '<strong>'+modulusNum1+'</strong>' + ' and ' + '<strong>'+modulusNum2+'</strong>' + ' is ' + '<strong>'+modulus+'</strong>' + '<br>');
 
 
-// task# 3
+// ================== chapter# 5 Task 3
 // let number ;
 // document.write('Value after variable declaration is: ' + number + '<br>');
 // number = +prompt('Enter number')
@@ -179,13 +169,13 @@ alert(myName)*/
 // let division = sum1 % number2;
 // document.write('The remainder is :  ' +division  + '<br>');
 
-// task# 4
+// ================== chapter# 5 Task 4
 // let costTicket = 600;
 // let numberOfTickets = +prompt('Enter number of tickets: ');
 // let totalCost = costTicket * numberOfTickets;
 // document.write('Total cost to buy '+ '<strong>'+ numberOfTickets +'</strong>'  + ' Tickets to a Movie is ' + '<strong>' + totalCost +'</strong>' + 'PKR');
 
-// task# 5
+// ================== chapter# 5 Task 5
 // let tableNumber = +prompt('Enter a number for its table: ');
 // document.write('Table of ' + tableNumber + '<br>');
 // for (let i = 1; i <= 10; i++) {
@@ -194,7 +184,7 @@ alert(myName)*/
 // }
 
 
-// task# 6
+// ================== chapter# 5 Task 6
 // let fahrenheit = +prompt('enter temperature in fahrenheit');
 // let celcius = (fahrenheit - 32) * (5 / 9);
 // document.write(fahrenheit + 'F is ' + celcius + 'C');
@@ -203,7 +193,7 @@ alert(myName)*/
 // let fahrenheit = (celcius * (9 / 5)) + 32;
 // document.write(celcius + 'C is ' +fahrenheit + 'F');
 
-// task# 7
+// ================== chapter# 5 Task 7
 // let item1 = 650;
 // let item2 = 100;
 // let shippingCharges = 100;
@@ -218,7 +208,7 @@ alert(myName)*/
 // let totalCost = (item1 * item1Quantity) + (item2 * item2Quantity) + shippingCharges;
 // document.write('Total cost of your order is: ' + totalCost);
 
-// task# 8
+// ================== chapter# 5 Task 8
 // document.write('Marks Sheet');
 // let totalMarks = +prompt('Enter total marks');
 // document.write('Total Marks are: ' + totalMarks + '<br>');
@@ -227,17 +217,17 @@ alert(myName)*/
 // let percentage = (marksObtained / totalMarks) * 100;
 // document.write('Percentage: ' + percentage + '%');
 
-// task# 9 
+// ================== chapter# 5 Task 9 
 // document.write('<h1> Currency in PKR </h1> <br>')
 // let exchangeRate = (10 * 104.80)/*(' US Dollar to PKR ')*/ + (25 * 28)/*(' S.riyal to PKR ')*/ ;
 // document.write('Total Currency in PKR ' + exchangeRate);
 
-// task# 10
+// ================== chapter# 5 Task 10
 // let number = +prompt('Enter a number');
 // let arithmatic = (((number + 5) * 10) / 2);
 // document.write(arithmatic);
 
-// task# 11 Age Calculator
+// ================== chapter# 5 Task 11 Age Calculator
 // let currentYear = +prompt('Enter current year');
 // document.write('Current year is: ' + currentYear + '<br>');
 // let birthYear = +prompt('Enter birth year');
@@ -245,7 +235,7 @@ alert(myName)*/
 // let age = currentYear - birthYear;
 // document.write('Your age is: ' + age + 'year');
 
-// task# 12 The Geometrizer
+// ================== chapter# 5 Task 12 The Geometrizer
 // document.write('<h1>The Geometrizer</h1>');
 // let radiusCircle = +prompt("Enter Radius of Circle");
 // document.write('Radius of circle: ' + radiusCircle + '<br>');
@@ -254,7 +244,7 @@ alert(myName)*/
 // let areaOfCircle = (3.124*3.124) * radiusCircle;
 // document.write('Area of circle: ' + areaOfCircle);
 
-// task# 13 The Lifetime Supply Calculator
+// ================== chapter# 5 Task 13 The Lifetime Supply Calculator
 // document.write('<h1>The Lifetime Supply Calculator</h1>');
 // let snackName = prompt('Enter your favourite Snack');
 // document.write('Favourite Snack: ' + snackName + '<br>');
@@ -271,11 +261,7 @@ alert(myName)*/
 
 
 
-
-
-// chapter# 6-9
-
-// task# 1
+// ================== chapter# 6-9 Task 1
 // document.write('<h1>Result</h1>');
 // let a = +prompt('Enter a number');
 // document.write('Value of a is: ' + a + '<br>');
@@ -289,7 +275,7 @@ alert(myName)*/
 // document.write('the value of a-- is: ' + a-- + '<br>');
 // document.write('Now the value of a is: ' + a + '<br>');
 
-// task# 2
+// ================== chapter# 6-9 Task 2
 // let a = 2;
 // document.write('the value of a is: ' + a + '<br>');
 // let b = 1;
@@ -300,13 +286,13 @@ alert(myName)*/
 // let result = --a - --b + ++b + b--;
 // document.write('the value of result is: ' + result + '<br>');
 
-// task# 3
+// ================== chapter# 6-9 Task 3
 // let userName = prompt('Enter your good name');
 // document.write('Hello, Nice to meet you. <br> Wellcome on the website ' + userName);
 
-// task# 4 no task mentioned 
+// ================== chapter# 6-9 Task 4 no task mentioned 
 
-// task# 5
+// ================== chapter# 6-9 Task 5
 // let tableNumber = +prompt('Enter a number for its table: ', '5');
 // document.write('Table of ' + tableNumber + '<br>');
 // for (let i = 1; i <= 10; i++) {
@@ -314,7 +300,7 @@ alert(myName)*/
 //     document.write(result);
 // }
 
-// task# 6
+// ================== chapter# 6-9 Task 6
 // let sub1 = prompt('enter 1st subject name');
 // let sub2 = prompt('enter 2nd subject name');
 // let sub3 = prompt('enter 3rd subject name');
@@ -333,24 +319,16 @@ alert(myName)*/
 // '<tr>' + '<td>' + sub3 + '</td>' + '<td>100</td>' + '<td>' + obtainMarks3 + '</td>' + '<td>' + Percentage3 + '</td>' + '</tr>' +
 // '<tr>' + '<td> </td>' + '<td>'+ totalMarks + '</td>' + '<td>' + totalObtainedMarks + '</td>' + '<td>' + overallPercentage + '</td>' + '</tr>' + '</table > ');
 
-// task# 7 no task mentioned
+// ================== chapter# 6-9 Task 7 
+// no task mentioned
 
-
-
-
-
-
-
-
-// chapter# 9-11
-
-// task# 1
+// ================== chapter# 9-11 Task 1
 // let cityName = prompt('Enter Your city name');
 // if (cityName == 'karachi' || cityName == 'Karachi') {
 //     document.write('Welcome to city of lights');
 // };
 
-// task# 2
+// ================== chapter# 9-11 Task 2
 // let genderType = prompt('Enter Your gender');
 // if (genderType == 'male') {
 //     document.write(' Good Morning Sir');
@@ -359,7 +337,7 @@ alert(myName)*/
 //     document.write(' Good Morning Ma’am');
 // }
 
-// task# 3
+// ================== chapter# 9-11 Task 3
 // let traficLight = prompt('Enter Trefic light colour');
 // if (traficLight == 'red') {
 //     document.write('Must Stop');
@@ -371,13 +349,13 @@ alert(myName)*/
 //     document.write('Move now');
 // }
 
-// task# 4
+// ================== chapter# 9-11 Task 4
 // let carFuel = +prompt('Enter remaining fuel inyour car in litres');
 // if (carFuel <= 0.25) {
 //     document.write('Please refill the fuel in your car');
 // }
 
-// task# 5
+// ================== chapter# 9-11 Task 5
 // var a = 4;
 // if (++a === 5){
 // alert("given condition for variable a is true");
@@ -421,7 +399,7 @@ alert(myName)*/
 // }
 
 
-// task# 6 MakSheet
+// ================== chapter# 9-11 Task 6 MakSheet
 // let sub1 = prompt('enter 1st subject name');
 // let sub2 = prompt('enter 2nd subject name');
 // let sub3 = prompt('enter 3rd subject name');
@@ -461,7 +439,7 @@ alert(myName)*/
 // }
 
 
-// task# 7
+// ================== chapter# 9-11 Task 7
 // var guessNumber = +prompt('Enter a number range from 1 - 10');
 // var secretNumber = Math.ceil(Math.random() * 11);
 
@@ -472,7 +450,7 @@ alert(myName)*/
 //     document.write('“Close enough to the correct answer');
 // }
 
-// task# 8
+// ================== chapter# 9-11 Task 8
 // let number = +prompt('enter a number');
 // if (number % 3 == 0) {
 //     document.write('number divisible by 3');
@@ -481,7 +459,7 @@ alert(myName)*/
 //     document.write('number not divisible by 3');
 // }
 
-// task# 9
+// ================== chapter# 9-11 Task 9
 // let number = +prompt('Enter a number');
 // if (number % 2 == 0) {
 //     document.write('number is even');
@@ -490,7 +468,7 @@ alert(myName)*/
 //     document.write('number is odd');
 // }
 
-// task# 10
+// ================== chapter# 9-11 Task 10
 // var temperature = +prompt('Enter a temperature');
 // if (temperature > 40) {
 //     document.write('It is too hot outside');
@@ -505,7 +483,7 @@ alert(myName)*/
 //     document.write('OMG! Today’s weather is so Cool.');
 // }
 
-// task# 11
+// ================== chapter# 9-11 Task 11
 // var firstNumber = +prompt('Enter first number');
 // var secondNumber = +prompt('Enter second number');
 // var opertor = prompt('Enter operator (+,-,*,/ or % for modulus)');
@@ -528,20 +506,7 @@ alert(myName)*/
 // }
 
 
-
-
-
-
-
-
-
-
-
-
-
-// chapter 12 - 13
-
-// task# 1 upper case, lower case or number checker
+// ================== chapter# 12-13 Task 1 upper case, lower case or number checker
 // var value = prompt('Enter value');
 // if (value.charCodeAt() >= 65 && value.charCodeAt() <= 90) {
 //     document.write("Uppercase Letter: " + value );
@@ -554,7 +519,7 @@ alert(myName)*/
 //     document.write("Number: " + value);
 // }
 
-// task# 2 Greater number
+// // ================== chapter# 12-13 Task 2 Greater number
 // var num1 = +prompt('enter 1st num');
 // var num2 = +prompt('enter 2nd num');
 // if (num1 > num2) {
@@ -567,7 +532,7 @@ alert(myName)*/
 //     document.write("both are equal: " + num1 + ' = ' + num2);
 // }
 
-// task# 3 number: Positive, Negative or 0
+// ================== chapter# 12-13 Task 3 number: Positive, Negative or 0
 // var num1 = +prompt('enter a num');
 // if (num1 > 0) {
 //     document.write("Positive number: " + num1);
@@ -579,7 +544,7 @@ alert(myName)*/
 //     document.write("Number is 0");
 // }
 
-// task# 4
+// ================== chapter# 12-13 Task 4
 // var characterChecker = prompt('enter a Character');
 // if (characterChecker == 'a' || characterChecker == 'e' || characterChecker == 'i' || characterChecker == 'o' || characterChecker == 'u') {
 //     document.write("True, Charater is vowel: " + characterChecker);
@@ -588,7 +553,7 @@ alert(myName)*/
 //     document.write("False, Charater is constant: " + characterChecker);
 // }
 
-// task# 5
+// ================== chapter# 12-13 Task 5
 // var correctPassword = 'kingsman';
 // var inputPassword = prompt('Enter Password');
 // if (inputPassword == "") {
@@ -601,7 +566,7 @@ alert(myName)*/
 //     document.write("Incorrect password");
 // }
 
-// task# 6 fix the code
+// ================== chapter# 12-13 Task 6 fix the code
 
 // var greeting;
 // var hour = 13;
@@ -613,7 +578,7 @@ alert(myName)*/
 //     document.write(greeting = "Good evening");
 // }
 
-// task# 7 greeting Clock
+// ================== chapter# 12-13 Task 7 greeting Clock
 // let inputTime = +prompt('Enter time in 24-hour formate like 1900 for 7pm');
 // if (inputTime >= 0000 && inputTime < 1200) {
 //     document.write("Good morning");
@@ -630,49 +595,34 @@ alert(myName)*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// chapter# 14-16
-
-// task# 1
+// ================== chapter# 14-16 Task 1
 // let arr = [];
 
-// task# 2
+// ================== chapter# 14-16 Task 2
 // let arr = new Array();
 
-// task# 3 Strings Array
+// ================== chapter# 14-16 Task 3 Strings Array
 // let stringArray = ['Bilal', 'Ali', 'Kashif', 'sumroo'];
 // console.log(stringArray);
 
-// task# 4 Number Array
+// ================== chapter# 14-16 Task 4 Number Array
 // let numberArray = [1, 45, 66, 78, 345, 7869];
 // console.log(numberArray);
 
-// task# 5 Boolean Array
+// ================== chapter# 14-16 Task 5 Boolean Array
 // let booleanArray = [true, false];
 // console.log(booleanArray);
 
-// task# 6 Mixed Array
+// ================== chapter# 14-16 Task 6 Mixed Array
 // let mixedArray = [45, 'bilal', 567, true, 'mouse', 4637, false];
 // console.log(mixedArray);
 
-// task# 7 Qualification Array
+// ================== chapter# 14-16 Task 7 Qualification Array
 // let qulificationArray = ['<ol>' + '<li>SSC</li>', '<li>HSC</li>', '<li>BCS</li>', '<li>BS</li>', '<li>BCOM</li>', '<li>MS</li>', '<li>M. Phil.</li>', '<li>PhD</li>' + '</ol>'];
 // document.write('<h1>Qualification</h1>');
 // document.write(qulificationArray);
 
-// task# 8 Marksheet Array
+// ================== chapter# 14-16 Task 8 Marksheet Array
 // let studentName = [];
 // studentName[0] = prompt('Enter 1st student name');
 // studentName[1] = prompt('Enter 2nd student name');
@@ -690,7 +640,7 @@ alert(myName)*/
 // document.write('Score of ' + studentName[1] + ' is ' + examScore[1] + '. Percentage: ' + percentage[1]+ '% <br>');
 // document.write('Score of ' + studentName[2] + ' is ' + examScore[2] + '. Percentage: ' + percentage[2]) + '%';
 
-// task# 9
+// ================== chapter# 14-16 Task 9
 // let colorArray = ['Blue', ' Green', ' Yellow', ' White', ' Black'];
 // document.write(colorArray + '<br>');
 // colorArray.unshift(prompt('Enter colour you want to add in above list at biginning'));
@@ -714,7 +664,7 @@ alert(myName)*/
 // colorArray.splice(deleteColor, numOfColorDelete);
 // document.write(colorArray + '<br>');
 
-// task# 10
+// ================== chapter# 14-16 Task 10
 // let studentScore = [];
 // studentScore[0] = +prompt('enter 1st student score');
 // studentScore[1] = +prompt('enter 2nd student score');
@@ -723,19 +673,19 @@ alert(myName)*/
 // document.write('Score of students: ' + studentScore + '<br>');
 // document.write('Ordered score of students: ' + studentScore.sort());
 
-// // task# 11
+// ================== chapter# 14-16 Task 11
 // let cityList = ['karachi ', 'lahore ', 'islamabad ', 'pishawar ', 'queta ', 'haidrabad '];
 // document.write('City list: ' + cityList + '<br>');
 // let selectedCities = cityList.slice(2, 5);
 // document.write('Selected city: ' + selectedCities + '<br>');
 
-// // task# 12
+// ================== chapter# 14-16 Task 12
 // let arr = ['This', 'is', 'my', 'cat'];
 // document.write('Array: <br>' + arr + '<br>');
 // let string = arr.join(' ');
 // document.write('String: <br>' + string);
 
-// task# 13
+// ================== chapter# 14-16 Task 13
 // let devicesFIFO = []
 // devicesFIFO.unshift("keyword");
 // devicesFIFO.unshift("mouse");
@@ -748,7 +698,7 @@ alert(myName)*/
 // document.write("Out:" + "<br>" + devicesFIFO.pop() + "<br>" + "<br>");
 
 
-// task# 14
+// ================== chapter# 14-16 Task 14
 // var devicesLIFO = [];
 // devicesLIFO.push("keyword");
 // devicesLIFO.push("mouse");
@@ -760,26 +710,14 @@ alert(myName)*/
 // document.write("Out:" + "<br>" + devicesLIFO.pop() + "<br>");
 // document.write("Out:" + "<br>" + devicesLIFO.pop() + "<br>");
 
-// task# 15 not completely define
+// ================== chapter# 14-16 Task 15 
+// not completely define
 
 
-
-
-
-
-
-
-
-
-
-
-
-// chapter# 17-20
-
-// task# 1
+// ================== chapter# 17-20 Task 1
 // let multiArray = [[], [], []];
 
-// task# 2
+// ================== chapter# 17-20 Task 2
 // let numMutliArray = [
 //     [0, 1, 2, 3],
 //     [1, 0, 1, 2],
@@ -789,13 +727,13 @@ alert(myName)*/
 //     document.write(numMutliArray[i] + '<br>');
 // }
 
-// task# 3
+// ================== chapter# 17-20 Task 3
 // for (i = 0; i <= 10; i++){
 //     document.write(i+ '<br>') 
 // }
 
 
-// task# 4 table
+// ================== chapter# 17-20 Task 4 table
 // let tableNumber = +prompt('Enter a number for its table: ');
 // let lengthOfTable = +prompt('Enter length of table')
 // document.write('Table of ' + tableNumber + '<br>');
@@ -805,7 +743,7 @@ alert(myName)*/
 //     document.write(result);
 // }
 
-// task# 5
+// ================== chapter# 17-20 Task 5
 // let fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
 // for (var i = 0; i < fruits.length; i++){
 //     document.write(fruits[i] + '<br>')
@@ -814,7 +752,7 @@ alert(myName)*/
 //     document.write('Element at index '+ fruits.indexOf(fruits[x]) +' is '+ fruits[x] + '<br>' )
 // }
 
-// task# 6
+// ================== chapter# 17-20 Task 6
 // document.write('Counting:');
 // for (var i = 1; i <= 15; i++){
 //     document.write(i+',')
@@ -839,7 +777,7 @@ alert(myName)*/
 //     document.write(i+'k ')
 // }
 
-// task# 7
+// ================== chapter# 17-20 Task 7
 // let foodArray = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
 // let check = prompt('welcome to ABC BAkery, What do you want to order?');
 // for (i = 0; i < foodArray.length; i++){
@@ -854,17 +792,17 @@ alert(myName)*/
 //     }
 // }
 
-// task# 8
+// ================== chapter# 17-20 Task 8
 // let maxNum = [24, 53, 78, 91, 12];
 // document.write('array items: ' + maxNum + '<br>')
 // document.write('Maximum number: ' + Math.max(...maxNum));
 
-// task#9 
+// ================== chapter# 17-20 Task 9 
 // let miniNum = [24, 53, 78, 91, 12];
 // document.write('array items: ' + miniNum + '<br>')
 // document.write('Maximum number: ' + Math.min(...miniNum));
 
-// task# 10
+// ================== chapter# 17-20 Task 10
 // for (i = 1; i <= 100; i++) {
 //     if (i % 5 == 0) {
 //         document.write(i + ',');
