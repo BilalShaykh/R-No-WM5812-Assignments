@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    
+</head>
+
+<body>
+    <div class="main-div">
+        <h1 class="heading">ToDo App</h1>
+        
+        <div class="toDo">
+            <input type="text" placeholder="Enter ToDo" id="input">
+            <i class="fa fa-pencil " id="edit" onclick="addToDo()"></i>
+            <i class="fa fa-trash" id="delete" onclick="deleteAll()"></i>
+        </div>
+
+        <div class="toDo-list">
+            <ul id="list">
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="App.js"></script>
+</body>
+
+</html>

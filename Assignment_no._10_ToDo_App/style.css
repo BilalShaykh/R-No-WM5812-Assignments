@@ -1,0 +1,84 @@
+.main-div{
+    margin: 10% 36%;
+    border: 1px solid #394989;
+    background-color: #394989;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    color: #fff48f;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.toDo{
+    text-align: center;
+    margin-top: 10px;
+}
+#input{
+    border-radius: 10px;
+    border-color: #fff48f;
+    outline: none;
+    font-size: 155%;
+    background-color: transparent;
+    color:#fff48f ;
+    padding: 1%;
+    width: 70%;
+}
+#edit{
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff48f;
+}
+#delete{
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff48f;
+}
+/* .toDo-list{
+    text-align: center;
+} */
+#list{
+    list-style: none;
+    padding-left: 0px;
+
+}
+#li{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    padding: 5px 0px;
+    color: #fff48f;
+}
+span{
+    height: 1px;
+    background: #fff48f;
+    display: block;
+    margin-top: 7px;
+}
+#delBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #4ea0ae;
+    font-size: 25px;
+
+}
+#editBtn{
+    cursor: pointer;
+    color: #4ea0ae;
+    font-size: 25px;
+
+}
+#boldbtn{
+    cursor: pointer;
+    margin-left: 10px;
+    color: #4ea0ae;
+    font-size: 25px;
+
+}
+.bold{
+    font-weight: bold;
+}
