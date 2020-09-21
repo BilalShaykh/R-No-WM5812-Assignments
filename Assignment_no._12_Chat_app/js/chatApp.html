@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDzryEnUdIu7k_TlCU0WzT0b3Czt-H7eN8",
+            authDomain: "html-practice-76919.firebaseapp.com",
+            databaseURL: "https://html-practice-76919.firebaseio.com",
+            projectId: "html-practice-76919",
+            storageBucket: "html-practice-76919.appspot.com",
+            messagingSenderId: "664042264983",
+            appId: "1:664042264983:web:c581cde383ffe355efccd2",
+            measurementId: "G-YS9JGZH7S1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <link rel="stylesheet" href="../css/chatapp.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <title>Chat App</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div>
+                <div class="navbar-menu droplist">
+                    <a class="ank-hover">
+                     <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="dropdown-data">
+                        <a onclick="signOut()" href="#">Sign Out</a>
+                        <a onclick="deleteAll()" href="#">Delete All</a>
+                    </div>
+                </div>
+                <div>
+                    <h1>Chat Room</h1>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="chatWindow"></div>
+        </main>
+
+        <footer>
+            <div class="footer-class">
+                <input type="text" name="" id="chatBox" placeholder="Type Message....">
+                <button type="submit" onclick="sendMsg()" id="sendBtn"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- <div id="modalWindow">
+        <div>
+            <input type="text" name="" id="userName" placeholder="User Name">
+            <button type="submit" onclick="submitUserName()" id="usrNamBtn">Submit</button>
+            <div id="userNameDetail"></div>
+        </div>
+    </div> -->
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

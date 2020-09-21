@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+}
+
+/* login page CSS############################################# */
+/* .fb_loginDiv{
+
+} */
+header{
+  text-align: center;
+  margin-top: 30px;
+}
+header h1{
+  font-size: 4rem;
+  color: #1c8adb;
+  margin-bottom: 20px;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.sign-up-form{
+  margin-left: 32%;
+    text-align: center;
+    margin-top: 8%;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 50%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:  #1c8adb;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 50%;
+  height: 0%;
+}
+.sign-up-form h1{
+  color: #1c8adb;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.input-box{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 91%;
+  border: 1px solid #999;
+  outline: none;
+}
+.signup-btn{
+  color: #fff;
+  width: 90%;
+  padding: 10px;
+  border-radius:20px ;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1c8adb;
+}
+
+.google-btn{
+  color: #fff;
+  width: 90%;
+  padding: 10px;
+  border-radius:20px ;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ca1b15;
+}
+.facebook-btn{
+  color: #fff;
+  width: 90%;
+  padding: 10px;
+  border-radius:20px ;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #191ce6;
+}
+.sign-up-form hr{
+  margin-top: 20px;
+}
+.or{
+  background: #fff;
+  width: 30px;
+  margin: -11px auto 10px;
+}
+/* #signUpBtn{
+
+} */
+
+
+@media screen and (max-width: 700px){
+  * {
+    margin: 0;
+  }
+  
+  /* login page CSS############################################# */
+  /* .fb_loginDiv{
+  
+  } */
+  header{
+    text-align: center;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  header h1{
+    font-size: 2rem;
+    color: #1c8adb;
+    margin-bottom: 20px;
+  }
+  
+
+  main{
+    margin-left: 7%;
+  }
+  .sign-up-form{
+    width: 379px;
+    box-shadow: 0 0 3px 0 rbg(0,0,0,0.3);
+    background-color: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+  }
+  .sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 91%;
+    border: 1px solid #999;
+    outline: none;
+  }
+  .signup-btn{
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+    border-radius:20px ;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #1c8adb;
+  }
+  
+  .google-btn{
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+    border-radius:20px ;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ca1b15;
+  }
+  .facebook-btn{
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+    border-radius:20px ;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #191ce6;
+  }
+  .sign-up-form hr{
+    margin-top: 20px;
+  }
+  .or{
+    background: #fff;
+    width: 30px;
+    margin: -11px auto 10px;
+  }
+  /* #signUpBtn{
+  
+  } */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 73%;
+  }
+  
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color:  #1c8adb;
+    color: #fff;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 66.7%;
+    height: 0%;
+  }
+}
+
+footer{
+  text-align: center;
+  margin-top: 20px;
+  color: #1c8adb;
+}

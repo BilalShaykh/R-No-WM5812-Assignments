@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDzryEnUdIu7k_TlCU0WzT0b3Czt-H7eN8",
+            authDomain: "html-practice-76919.firebaseapp.com",
+            databaseURL: "https://html-practice-76919.firebaseio.com",
+            projectId: "html-practice-76919",
+            storageBucket: "html-practice-76919.appspot.com",
+            messagingSenderId: "664042264983",
+            appId: "1:664042264983:web:c581cde383ffe355efccd2",
+            measurementId: "G-YS9JGZH7S1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Facebook Signin</title>
+</head>
+
+
+<body onload="onload()">
+    <header>
+        <h1>Chat Applicaton</h1>
+        <hr>
+    </header>
+    <main >
+       <div class="sign-up-form">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultActive">SignUp</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">SignIn</button>
+            </div>
+
+            <!-- Tab content -->
+            <div id="London" class="tabcontent " >
+                <h1>Sign Up</h1>
+                <form>
+                    
+                    <input type="email"  class="input-box" placeholder="Your Email">
+                    
+                    <input type="password" class="input-box" placeholder="Your Passowrd">
+                    <br>
+                    <button type="button" class="signup-btn">sign up</button>
+                  </form>
+            </div>
+
+            <div id="Paris" class="tabcontent">
+                <h1>Sign In</h1>
+                <form>
+                    
+                    <input type="email"  class="input-box" placeholder="Your Email">
+                    
+                    <input type="password" class="input-box" placeholder="Your Passowrd">
+                    <br>
+                    <button type="button" class="signup-btn" disabled>sign In</button>
+                    <hr>
+                    <p class="or">OR</p>
+                    <button type="button" class="google-btn" disabled>Login with Google</button>
+                    <button type="button" class="facebook-btn"  onclick="facebookLogin()">Login with Facebook</button>
+                </form>
+            </div>
+
+        </div>
+
+            
+      
+    </main>
+    <footer>
+        <h4>Created by Muhammad Bilal</h4>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
